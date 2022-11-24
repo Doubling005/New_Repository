@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-24T15:44:22 IST" name="SuitePriority" finished-at="2022-11-24T15:44:22 IST" duration-ms="124">
+    <groups>
+    </groups>
+    <test started-at="2022-11-24T15:44:22 IST" name="Test" finished-at="2022-11-24T15:44:22 IST" duration-ms="124">
+      <class name="com.testLayer.Priority">
+        <test-method signature="A()[pri:1, instance:com.testLayer.Priority@dbf57b3]" started-at="2022-11-24T15:44:22 IST" name="A" finished-at="2022-11-24T15:44:22 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method signature="D()[pri:1, instance:com.testLayer.Priority@dbf57b3]" started-at="2022-11-24T15:44:22 IST" name="D" finished-at="2022-11-24T15:44:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D -->
+        <test-method signature="AB()[pri:2, instance:com.testLayer.Priority@dbf57b3]" started-at="2022-11-24T15:44:22 IST" name="AB" finished-at="2022-11-24T15:44:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AB -->
+        <test-method signature="AB()[pri:2, instance:com.testLayer.Priority@dbf57b3]" started-at="2022-11-24T15:44:22 IST" name="AB" finished-at="2022-11-24T15:44:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AB -->
+        <test-method signature="B()[pri:3, instance:com.testLayer.Priority@dbf57b3]" started-at="2022-11-24T15:44:22 IST" name="B" finished-at="2022-11-24T15:44:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method signature="C()[pri:4, instance:com.testLayer.Priority@dbf57b3]" started-at="2022-11-24T15:44:22 IST" name="C" finished-at="2022-11-24T15:44:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C -->
+      </class> <!-- com.testLayer.Priority -->
+    </test> <!-- Test -->
+  </suite> <!-- SuitePriority -->
+</testng-results>
