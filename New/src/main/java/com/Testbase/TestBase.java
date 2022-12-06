@@ -12,6 +12,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
+import com.PageLayer.Login_Functionality;
 import com.mongodb.diagnostics.logging.Logger;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -20,7 +21,9 @@ public class TestBase {
 
 	public static WebDriver driver;
 	public static Logger logger;
+	public static Login_Functionality obj;
 
+	
 	@BeforeMethod
 	public void setup() {
 
@@ -44,6 +47,8 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.get("https://apps.dalalstreet.ai/login");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		
+		obj = new Login_Functionality();
 	
 	}
 	
